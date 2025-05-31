@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+<h1>About Page</h1>
+    <p> Company address is {{ contract_address }}</p>
+    <p> Phone number is {{ phone_number }}</p>
+    <p>{{ description }}</p>
+{% endblock %}
